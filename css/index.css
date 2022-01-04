@@ -6,28 +6,29 @@ body{
 
 nav{
     display: flex;
-    background: linear-gradient(90deg, #b2bf43 1.18%, #a1b154 100%);
+    background: linear-gradient(90deg, #b2bf43 1.18%, #7c8b30 100%);
     border: none;
     Justify-content: space-between;
     align-items: center;
-
+    height: 100px;
 }
 
 .org-name{
     font-family: 'The Nautigal', cursive;
-    font-size: 30px;
+    font-size: 48px;
     color: white;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
 .navbar--icon{
-    height: 80px;
-    padding-left: 100px;
+    height: 90px;
+    padding-left: 50px;
 }
 
 nav > p{
-    font-size: 20px;
-    padding-left: 50px;
+    font-size: 28px;
+    font-weight: 500;
+    padding-left: 100px;
     color: white;
     letter-spacing: 0.03em;
 }
@@ -43,7 +44,7 @@ nav > p > a{
 }
 
 .location{
-    margin-right: 200px
+    margin-right: 100px
 }
 
 /* Main */
@@ -59,4 +60,14 @@ main{
 
 .dance--image{
     height: 400px;
+}
+
+
+/* Footer */
+
+footer{
+    display: flex;  
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
