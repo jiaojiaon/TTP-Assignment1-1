@@ -54,34 +54,41 @@ nav > p > a{
 
 main{
     display: inline-block;  
-    padding-top: 100px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
 
 .dance--image{
-    height: 400px;
+    height: 350px;
+    padding-left: 50px;
 }
 
 .intro-section1, .intro-section2{
     display: flex;
+    padding-top: 100px;
+    padding-right: 50px;
 }
 
+.intro-section1 > div > p, .intro-section2 > div > p{
+    font-size: 20px;
+    margin-right: 50px;
+}
 
 /* Footer */
 
 footer{
     display: flex;  
     padding-top: 100px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: inline-block;
     align-items: center;
 }
 
-.follow--image--container > img{
+.follow--image--container > a > img{
     height: 30px;
+    margin: 10px 10px 50px 0px;
 }
 
