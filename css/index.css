@@ -11,11 +11,14 @@ nav{
     Justify-content: space-between;
     align-items: center;
     height: 100px;
+    box-sizing:content-box;
+
 }
 
 .org-name{
     font-family: 'The Nautigal', cursive;
     font-size: 48px;
+    white-space: nowrap;
     color: white;
     padding-left: 20px;
 }
@@ -26,11 +29,12 @@ nav{
 }
 
 nav > p{
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 500;
     padding-left: 100px;
     color: white;
     letter-spacing: 0.03em;
+    white-space: nowrap;
 }
 
 nav > p > a{
@@ -40,17 +44,16 @@ nav > p > a{
 
 .about{
     margin-left: auto;
-
 }
 
 .location{
-    margin-right: 100px
+    margin-right: 100px;
 }
 
 /* Main */
 
 main{
-    display: flex;  
+    display: inline-block;  
     padding-top: 100px;
     padding-left: 40px;
     padding-right: 40px;
@@ -62,6 +65,10 @@ main{
     height: 400px;
 }
 
+.intro-section1, .intro-section2{
+    display: flex;
+}
+
 
 /* Footer */
 
@@ -70,4 +77,11 @@ footer{
     padding-top: 100px;
     padding-left: 40px;
     padding-right: 40px;
+    display: inline-block;
+    align-items: center;
 }
+
+.follow--image--container > img{
+    height: 30px;
+}
+
